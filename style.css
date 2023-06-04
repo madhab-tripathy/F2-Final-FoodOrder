@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    padding: 0;
+    font-family:'Lato';
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #000;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+}
+
+.card-body{
+    margin: 1rem;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+h1{
+    text-align: center;
+}
